@@ -1,0 +1,16 @@
+{
+  "name": "flow",
+  "version": "0.0.0",
+  "homepage": "https://github.com/constantinoantunes/flow",
+  "authors": [
+    "Constantino <constantino.antunes@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
