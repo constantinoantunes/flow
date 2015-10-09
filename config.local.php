@@ -7,10 +7,13 @@
  */
 
 return array(
-    'db' => array(
-        'host' => '127.0.0.1',
-        'name' => 'flow',
-        'user' => 'root',
-        'pass' => '',
+    'doctrine' => array(
+        'isDevMode' => true,
+        'dbParams'  => array(
+            'driver'   => 'pdo_mysql',
+            'dbname'   => 'flow',
+            'user'     => 'root',
+            'password' => '',
+        ),
     ),
 );
